@@ -10,27 +10,27 @@
 
 <h4>1. Task Management</h4>
 
-- Create and Save Tasks: Parents can create tasks, set time limits, and track how long it takes to complete them.
+- <b>Create and Save Tasks:</b> Parents can create tasks, set time limits, and track how long it takes to complete them.
 
-- Task Completion Metrics: Automatically records how much time was allotted and the time taken to complete the task.
+- <b>Task Completion Metrics:</b> Automatically records how much time was allotted and the time taken to complete the task.
 
 <h4>2. Time Tracking</h4>
 
-- Real-Time Timer: A countdown timer helps the child stay focused by visually displaying the time remaining.
+- <b>Real-Time Timer:</b> A countdown timer helps the child stay focused by visually displaying the time remaining.
 
-- Alerts and Audio Cues: When the timer ends, an alert and audio signal notify the child.
+- <b>Alerts and Audio Cues:</b> When the timer ends, an alert and audio signal notify the child.
 
 <h4>3. User Management</h4>
 
-- Parent and Child Accounts: Supports user accounts for parents to manage tasks and track progress for one or more children.
+- <b>Parent and Child Accounts:</b> Supports user accounts for parents to manage tasks and track progress for one or more children.
 
-- Task Assignment: Assign specific tasks to individual children.
+- <b>Task Assignment:</b> Assign specific tasks to individual children.
 
 <h4>4. Progress Metrics</h4>
 
-- Daily Metrics: View how quickly tasks are completed on a day-to-day basis.
+- <b>Daily Metrics:</b> View how quickly tasks are completed on a day-to-day basis.
 
-- Performance Insights: Analyze trends to identify good days and days where additional support or rewards may be beneficial.
+- <b>Performance Insights:</b> Analyze trends to identify good days and days where additional support or rewards may be beneficial.
 
 ___
 

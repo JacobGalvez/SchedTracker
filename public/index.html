@@ -12,10 +12,10 @@
         <h1>ScheduleTracker</h1>
     </div>
     <div class="toolbar">
-        <button class="tb">Time Tracker</button>
+        <button class="tb" onclick="window.location.href='/';">Time Tracker</button>
         <button class="tb">My Calendar</button>
         <button class="tb">Documentation/Research</button>
-        <button class="tb"> Download The App</button>
+        <button class="tb" onclick="window.location.href='/login.html';">Login</button>
     </div>
     <div class="task">
         <p><b>Task Assigned:</b> <input class="task" id="task" type="text" placeholder="Task Description"></p>
@@ -34,7 +34,7 @@
         <button class="resetbutton" onclick="resetTimer()"><b>Finished Task</b></button>
     </div>
     <div class="taskHistoryContainer">
-        <h2>Task History</h2>
+        <h2>Today's Task History</h2>
         <ul id="taskHistory">
         </ul>
     </div>

@@ -92,3 +92,55 @@ html {
     list-style-type: none;
     padding: 0;
 }
+
+.loginContainer {
+    background-color: white;
+    display: grid;
+    height: 15em;
+    width: 50%;
+    display: grid;
+    font-size: 24px;
+    font-weight: bold;
+    border: solid;
+    padding: 10px;
+}
+
+.usernameInput {
+    width: 98%;
+    font-weight: bold;
+    font-size: 20px;
+    height: 1.5em;
+    justify-content: center;
+}
+
+.passwordInput {
+    width: 98%;
+    height: 1.5em;
+    font-weight: bold;
+    -webkit-text-security: disc;
+    font-size: 20px;
+}
+
+.loginWrapper {
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.loginButton {
+    width: 75%;
+    border-radius: 15px;
+    font-size: 22px;
+    background-color:rgb(255, 174, 13)
+}
+
+.loginButton:hover {
+    background-color:rgb(162, 111, 9);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}

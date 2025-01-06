@@ -7,8 +7,8 @@ const timeAllotted = document.getElementById('timeAllotted');
 const task = document.getElementById('task');
 const startButton = document.querySelector('.startButton');
 const resetButton = document.querySelector('.resetButton');
-const timerEndAudio = new Audio('assets/timer-finish.mp3');
-const dingAudio = new Audio('assets/ding.mp3');
+const timerEndAudio = new Audio('/assets/timer-finish.mp3');
+const dingAudio = new Audio('/assets/ding.mp3');
 
 // Function to format time as mm:ss
 function formatTime(seconds) {
@@ -87,6 +87,37 @@ function resetTimer() {
     timeRemaining = 0;
     elapsedTime = 0;
     updateDisplay();
+
+    // Send data to server and save task in MongoDB
+    saveTaskToDatabase(timeFinishedIn);
+}
+
+// Function to send task data to the server
+async function saveTaskToDatabase(timeFinishedIn) {
+    const taskData = {
+        taskName: task.value,
+        allottedTime: parseInt(timeAllotted.value, 10), // Allotted time in minutes
+        timeFinishedIn: formatTime(timeFinishedIn), // Time finished in mm:ss format
+        userId: userId // Add the userId to assign the task to the specific user
+    };
+
+    try {
+        const response = await fetch('/tasks/save', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(taskData), // Send task data as JSON
+        });
+
+        if (response.ok) {
+            console.log('Task saved successfully');
+        } else {
+            console.log('Failed to save task');
+        }
+    } catch (err) {
+        console.error('Error saving task:', err);
+    }
 }
 
 function getTaskInfo(timeFinishedIn) {

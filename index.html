@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="App.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>ScheduleTracker</h1>
+    </div>
+    <div class="toolbar">
+        <button class="tb">Time Tracker</button>
+        <button class="tb">My Calendar</button>
+        <button class="tb">Documentation/Research</button>
+        <button class="tb"> Download The App</button>
+    </div>
+    <div class="task">
+        <p><b>Task Assigned:</b> <input class="task" id="task" type="text" placeholder="Task Description"></p>
+    </div>
+    <div class="maxTime">
+        <p><b>Time Allotted (Minutes): </b><input class="timeAllotted" id="timeAllotted"> <button class="startButton" onclick="startTimer()">Go</button></p>
+    </div>
+    <div class="timer">
+        <p><b>Time Remaining:</b></p>
+        <span id="timerDisplay">00:00</span>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div class="reset">
+        <button class="resetbutton" onclick="resetTimer()"><b>Finished Task</b></button>
+    </div>
+    <div class="taskHistoryContainer">
+        <h2>Task History</h2>
+        <ul id="taskHistory">
+        </ul>
+    </div>
+
+    <div class="footer">
+    </div>
+</body>
+</html>

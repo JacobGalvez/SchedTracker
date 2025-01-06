@@ -1,0 +1,94 @@
+/*
+Color Schema:
+BLUE: rgb(91, 142, 252);
+PURPLE: rgb(115, 93, 240);
+PINK: rgb(222, 33, 124);
+ORANGE: rgb(255, 94, 0);
+YELLOW: rgb(255, 174, 13)
+*/
+
+
+html {
+    display: grid;
+    font-family: arial;
+    background-color: rgb(255, 174, 13);
+}
+
+.header {
+    display: grid;
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(91, 142, 252); /* BLUE */
+    color: white;
+}
+
+.toolbar {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tb {
+
+    border-radius: 15px;
+    height: 40px;
+    width: 22%;
+    background-color: rgb(115, 93, 240); /* PURPLE */
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: inherit;
+    border: none;
+}
+
+.tb:hover {
+    background-color: rgb(146, 56, 56);
+    color: white;
+}
+
+.maxTime {
+    text-align: center;
+}
+
+.task {
+    text-align: center;
+    border-top: solid;
+    border-color: grey;
+}
+
+.timer {
+    text-align: center;
+}
+
+#timerDisplay {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.reset {
+    text-align: center;
+    border-bottom: solid;
+    padding-bottom: 20px;
+}
+
+.resetbutton {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    width: 15%;
+    height: 40px;
+}
+
+.taskHistoryContainer {
+    text-align: center;
+}
+
+#taskHistory{
+    list-style-type: none;
+    padding: 0;
+}

@@ -67,6 +67,8 @@ ___
 
 - <b>Custom Alerts:</b> Allow parents to customize audio and visual alerts to suit their child’s preferences.
 
+- <b>Themes:</b> To increase accessibility SchedTracker will come out of the box with a colorblind accessible color theme, we still want it to be interactive and customisable in a way that the user would like.
+
 ___
 
 <h3>Acknowledgments</h3>

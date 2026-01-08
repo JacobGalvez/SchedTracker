@@ -75,4 +75,4 @@ ___
 
 This project is inspired by the unique challenges and strengths of the autistic community. By providing structured guidance and measurable insights, the program aims to make task completion a more positive and empowering experience for both children and parents.
 
-For questions or feedback, please reach out to jacob@websiteforgers.com.
+For questions or feedback, please reach out to jacobgalvez18@gmail.com
